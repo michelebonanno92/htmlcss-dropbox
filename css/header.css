@@ -1,0 +1,27 @@
+header{
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    background-color: bisque;
+   
+}
+
+.row > *{
+    border: 3px dashed green;
+}
+
+nav ul li{
+    margin: 0 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+

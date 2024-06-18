@@ -6,8 +6,25 @@ reset
     padding: 0;
     box-sizing: border-box;
  }
-
+/* 
+general
+ */
+ 
  html{
    font-family: "Open Sans", sans-serif;
  }
- 
+
+ .container{
+  max-width: 1500px;
+  margin: 0 auto ;
+ }
+
+ ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
