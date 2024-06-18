@@ -1,27 +1,30 @@
-header{
-
-}
-
-.row{
+.header-top{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 30px;
-    background-color: bisque;
-   
 }
 
-.row > *{
-    border: 3px dashed green;
-}
-
-nav ul li{
-    margin: 0 5px;
-    display: inline-block;
+.header-top ul li a {
+    padding: 10px;
     text-decoration: none;
 }
 
+
+.header-top nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+ .header-top nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+  
 
 
 
