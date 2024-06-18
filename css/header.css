@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 30px;
+    padding: 30px 5px ;
 }
 
 .header-top ul li a {
@@ -20,6 +20,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .header-bottom{
+    background-color: #B4D0E7;
+    height: 450px;
+    padding: 100px 250px;
+ }
+ .content-bottom{
+    margin: auto;
+    min-height: 350px;
+ }
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+  
+    padding-bottom: 15px
+
+ }
+
+ .header-bottom  .content-bottom div {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .header-content-left{
+    background-color: red;
+    color: white;
+    width: 40%;
+    max-height: 200px;
+ }
+
+ .header-content-right{
+    background-color: blue;
+    color: white;
+    width: 60%;
+    min-height: 250px;
  }
 
 
