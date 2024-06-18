@@ -47,15 +47,15 @@ h1{
 
  .header-content-left{
     background-color: red;
-    color: white;
-    width: 40%;
     max-height: 200px;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
  }
 
  .header-content-right{
     background-color: blue;
-    color: white;
-    width: 60%;
+    width: 62%;
     min-height: 250px;
  }
 

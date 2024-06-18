@@ -26,4 +26,7 @@ general
   cursor: pointer;
  }
 
+img{
+  max-width: 100%;
+}
 
