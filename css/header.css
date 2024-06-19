@@ -30,13 +30,13 @@
  .content-bottom{
     margin: auto;
     min-height: 350px;
+  
  }
 
 h1{
     font-size: 4rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
-
  }
 
  .header-bottom  .content-bottom div {
@@ -61,8 +61,10 @@ h1{
 
  .arrow{
    font-size: 3rem;
-   margin-top: 25px;
+   margin-top: 10px;
  }
+
+
 
 
 
