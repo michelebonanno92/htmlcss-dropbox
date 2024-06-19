@@ -14,3 +14,37 @@ main section h2{
 .container-medium section div > *{
     cursor: pointer;
 }
+
+.content-main{
+    padding-top: 40px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.col{
+    width:30% ;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.col > *  {
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.title-col{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+col button{
+  padding-left: 20px;
+}
+
+.row{
+    width: 100%;
+    background-color: red;
+}
