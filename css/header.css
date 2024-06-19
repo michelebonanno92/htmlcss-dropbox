@@ -56,12 +56,13 @@ h1{
 
  .header-content-right{
     width: 62%;
-    min-height: 250px;
+    min-height: 380px;
+    margin-right: 50px;
  }
 
  .arrow{
-   font-size: 3rem;
-   margin-top: 10px;
+   font-size: 2.5rem;
+   margin-top: 30px;
  }
 
 
