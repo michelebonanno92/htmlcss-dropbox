@@ -2,9 +2,13 @@ main{
     padding-top: 80px;
 }
 
+main section{
+    margin-top: 50px;
+}
+
 main section h2{
     text-align: left;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
     
 }
 .radio-left{
@@ -82,4 +86,39 @@ main section h2{
 
 .box-two button{
     padding: 10 30px;
+}
+
+/* .box-photo-text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.box-photo{
+    width: 62%;
+}
+
+.box-photo img{
+    display: block;
+}
+
+.box-text{
+    width: 38%;
+}
+
+.box-text > *{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.box-text h3{
+    margin-top: 30px;
+}
+
+.box-text button{
+    background-color: white;
+    color: black;
+    padding: 8px 8px ;
+    margin-left: 40px;
+    margin-top: 20px;
 }
