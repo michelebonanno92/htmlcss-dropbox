@@ -1,0 +1,16 @@
+main{
+    padding-top: 80px;
+}
+
+main section h2{
+    text-align: left;
+   padding-bottom: 30px;
+    
+}
+.radio-left{
+    margin-left: 50px;
+}
+
+.container-medium section div > *{
+    cursor: pointer;
+}

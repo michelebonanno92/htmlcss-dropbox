@@ -14,9 +14,15 @@ general
    font-family: "Open Sans", sans-serif;
  }
 
- .container{
+ .container-max{
   max-width: 1500px;
   margin: 0 auto ;
+ }
+
+ .container-medium{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: red;
  }
 
  button{
