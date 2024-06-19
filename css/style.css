@@ -36,11 +36,11 @@ img{
 }
 
 .col hr{
-border: 1px solid grey;
-max-width: 60px;
-margin-left: 25px;
-margin-top: 35px;
-margin-bottom: 35px;
-opacity: 0.3;
+  border: 1px solid grey;
+  max-width: 60px;
+  margin-left: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  opacity: 0.3;
 }
 
