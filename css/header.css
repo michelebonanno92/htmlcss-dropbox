@@ -24,8 +24,8 @@
 
  .header-bottom{
     background-color: #B4D0E7;
-    height: 450px;
-    padding: 100px 250px;
+    height: 580px;
+    padding: 50px 250px;
  }
  .content-bottom{
     margin: auto;
@@ -35,28 +35,33 @@
 h1{
     font-size: 4rem;
     text-align: center;
-  
-    padding-bottom: 15px
+    margin-bottom: 40px;
 
  }
 
  .header-bottom  .content-bottom div {
     display: flex;
-    flex-wrap: wrap;
  }
 
  .header-content-left{
-    background-color: red;
     max-height: 200px;
     width: 38%;
     display: flex;
     flex-direction: column;
  }
 
+ .header-content-left p , .header-content-left div{
+   margin-bottom: 20px;
+ }
+
  .header-content-right{
-    background-color: blue;
     width: 62%;
     min-height: 250px;
+ }
+
+ .arrow{
+   font-size: 3rem;
+   margin-top: 25px;
  }
 
 
