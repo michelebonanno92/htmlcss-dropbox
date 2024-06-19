@@ -37,6 +37,10 @@ main section h2{
     padding-left: 25px;
 }
 
+.col div a {
+    color: #0101EE;
+}
+
 .title-col{
     border-bottom: 1px solid black;
     padding: 5px;
@@ -79,6 +83,7 @@ main section h2{
     font-size: 0.8rem;
     padding-top: 30px;
 }
+
 .box-two{
     width: 27%;
     padding-top: 25px;
@@ -87,12 +92,6 @@ main section h2{
 .box-two button{
     padding: 10 30px;
 }
-
-/* .box-photo-text{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
 
 .box-photo{
     width: 62%;
@@ -121,4 +120,19 @@ main section h2{
     padding: 8px 8px ;
     margin-left: 40px;
     margin-top: 20px;
+}
+.a-sixth{
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.a-sixth > *{
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+
+.enlarged-text{
+    font-size: 2.1rem;
 }
