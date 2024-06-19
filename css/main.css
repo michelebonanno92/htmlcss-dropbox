@@ -49,14 +49,38 @@ main section h2{
     color: blue;
 }
 
-.content-height{
-    height: 800px;
-}
-
 .fa-ul > *{
     padding-bottom: 15px;
 }
 
 .small-button{
     padding: 10px 80px;
+}
+
+.big-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-one{
+    width: 73%;
+    padding: 25px;
+}
+
+.box-one > *{
+    margin-bottom: 10px;
+}
+
+.box-one p{
+    font-size: 0.8rem;
+    padding-top: 30px;
+}
+.box-two{
+    width: 27%;
+    padding-top: 25px;
+}
+
+.box-two button{
+    padding: 10 30px;
 }
