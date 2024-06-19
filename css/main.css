@@ -24,7 +24,7 @@ main section h2{
 }
 
 .col{
-    width:30% ;
+    width:31% ;
     border: 1px solid black;
 }
 
@@ -49,4 +49,13 @@ main section h2{
 
 .check{
     color: blue;
+}
+
+.content-height{
+    height: 800px;
+}
+
+.fa-ul > *{
+    padding-bottom: 15px;
+
 }
