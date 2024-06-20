@@ -221,7 +221,8 @@ main section h2{
 .uncle-square div hr {
    border: 1px solid grey;
    margin-left: 25px;
-   width: 50px;
+   width: 80px;
+   opacity: 0.2;
 
  }
 
