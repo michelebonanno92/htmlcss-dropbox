@@ -257,19 +257,23 @@ main section h2{
     border: none;
     margin-right: 60px;
 }
+
 .list{
     display: flex;
+    justify-content: space-between;
     border-top: 1px solid black;
     padding: 30px 0;
-    justify-content: space-between;
-}
-
-.list:last-child{
-    display: flex;
+}  
+.list-container:last-child{
     border-bottom: 1px solid black;
-    padding: 30px 0;
-
 }
+.list div{
+    padding-right: 20px;
+}
+.list-container{
+    margin-bottom: 100px;
+}
+
 
 
 
