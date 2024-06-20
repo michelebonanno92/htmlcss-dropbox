@@ -145,33 +145,50 @@ main section h2{
     width: 100%;
    margin-bottom: 100px;
 }
-.father-square{
-    background-color: red;
+
+.father-square , .mother-square{
+    background-color: #F5F5F5;
     width: calc(100% / 3);
     height: calc(100vw / 3) ;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .son-square{
     width: 50%;
     height: 50%;
-    background-color: orange;
-    border: 1px solid black;
 }
 
+
+.father-square :nth-child(1){
+    background-color: #A2D39B;
+}
 .father-square :nth-child(2){
-    background-color: green;
+    background-color: #61082B;
 }
 
 .father-square :nth-child(3){
-    background-color: blue;
+    background-color: #0093CE;
 }
 
 .father-square :nth-child(4){
-    background-color: yellow;
+    background-color: #FF1C1C;
 }
+
+.mother-square :nth-child(1){
+    background-color: #D5001F;
+}
+.mother-square :nth-child(2){
+    background-color: #B4D0E7;
+}
+
+.mother-square :nth-child(3){
+    background-color: #0D2481;
+}
+
+.mother-square :nth-child(4){
+    background-color: #FFD830;
+}
+
 
 
