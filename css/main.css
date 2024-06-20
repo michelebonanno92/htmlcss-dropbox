@@ -31,6 +31,14 @@ main section h2{
     border: 1px solid black;
     margin-bottom: 50px;
 }
+.col hr{
+    border: 1px solid grey;
+    max-width: 60px;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    opacity: 0.3;
+  }
 
 .col > * {
     margin-bottom: 15px;
@@ -146,12 +154,20 @@ main section h2{
     margin-bottom: 100px;
 }
 
-.father-square , .mother-square{
+.father-square , .mother-square, .uncle-square{
     background-color: #F5F5F5;
     width: calc(100% / 3);
     height: calc(100vw / 3) ;
     display: flex;
     flex-wrap: wrap;
+}
+.uncle-square div img{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.uncle-square{
+    padding-bottom: 100px;
 }
 
 .son-square{
@@ -168,7 +184,6 @@ main section h2{
     left: 50%;
     transform: translate( -50% , -50% );
 }
-
 
 .first-square{
     background-color: #A2D39B;
@@ -201,6 +216,16 @@ main section h2{
 
 .mother-square :nth-child(4){
     background-color: #FFD830;
+}
+
+.uncle-hr{
+   flex-direction: column-reverse;
+   width: 50px;
+}
+
+.uncle-square p{
+    font-size: 0.8rem;
+    padding: 0 35px;
 }
 
 
