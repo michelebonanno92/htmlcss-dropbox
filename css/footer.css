@@ -12,10 +12,11 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding: 0 90px;
 }
 
 .col-footer{
-    padding: 0 30px;
+    padding: 0 10px;
     width: 20%;
 }
 
@@ -41,7 +42,7 @@
 }
 .box-italy{
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 15px;
     opacity: 0.5;
 } 
 
@@ -52,9 +53,4 @@
 .box-italy hr{
     min-width: 7vw;
     margin-bottom: 50px;
-
-}
-
-.box-italy div:nth-child(3){
-    margin-top: 50px;
 }
