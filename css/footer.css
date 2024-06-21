@@ -1,6 +1,60 @@
 .container-footer{
     background-color: #000000;
-    color: white;
     min-height: 500px;
     margin-top: 100px;
+    padding: 50px;
+    color: white;
+}
+
+.row-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.col-footer{
+    padding: 0 30px;
+    width: 20%;
+}
+
+.col-footer nav ul{
+    list-style: none;
+    text-align: left;
+} 
+
+
+.col-footer nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-footer nav ul li{
+    padding: 10px 5px;
+}
+
+.col-footer nav ul li:first-child{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.box-italy{
+    margin-top: 100px;
+    margin-left: 40px;
+    opacity: 0.5;
+} 
+
+.box-italy div > * {
+    padding: 0 5px;
+}
+
+.box-italy hr{
+    min-width: 7vw;
+    margin-bottom: 50px;
+
+}
+
+.box-italy div:nth-child(3){
+    margin-top: 50px;
 }
